@@ -18,7 +18,7 @@ body {
 	background-color: #ff8888;
 	border: 1px solid;
 	border-radius: 3px;
-	transition: 0.3s;
+	transition: .2s;
 } 
 #expand-btn::after {
 	content: "Mostra righe";
