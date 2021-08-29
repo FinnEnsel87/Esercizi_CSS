@@ -1,0 +1,21 @@
+:root{
+    --body-color: #011212;
+    --ball-color: #ff8800;
+    --ball-width: 100px;
+    --ball-height: 100px;
+    --ball-size: 100%;
+    /* Nella solution questi valori a cosa si riferiscono ? (proprietà non trovata) */
+    --x-speed: 5s;
+    --y-speed: 7s;
+    --transition-speed: 2.2s;
+}
+body {
+    background-color: var(--body-color);
+}
+
+.ball {
+    width: var(--ball-width);
+    height: var(--ball-height);
+    background-color: var(--ball-color);
+    border-radius: calc(var(--ball-size) / 2);
+}
